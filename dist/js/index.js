@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".footer").find("li").click(function(){$(this).text()})});

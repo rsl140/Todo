@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".footer").find("li").click(function(){$(this).text()})});
+$(document).ready(function(){$(".footer").find("li").click(function(){var t=$(this).text();"待办"===t?alert(1):"已完成"===t?alert(2):alert(3)})});
